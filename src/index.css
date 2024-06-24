@@ -1,0 +1,20 @@
+/* universal selector */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.underline-4 {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 12px;
+    /* Optional: Adjust the offset to your preference */
+}
+/* In your CSS file or style block */
+.selected-image {
+    border: 2px solid #000;
+}
