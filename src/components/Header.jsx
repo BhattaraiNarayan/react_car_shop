@@ -31,7 +31,7 @@ const Header = () => {
           </NavLink>
         </div>
         <div className="hidden md:flex space-x-16 font-semibold text-xl">
-           <NavLink to={"/react_car_shop/"} className={getNavLinkClass}>
+           <NavLink to={"/react_car_shop/home"} className={getNavLinkClass}>
             Home
           </NavLink>
           <NavLink to={"/react_car_shop/products"} className={getNavLinkClass}>
